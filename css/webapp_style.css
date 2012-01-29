@@ -1,0 +1,220 @@
+/* 
+    Document   : webapp_style
+    Created on : Nov 23, 2011, 10:06:12 AM
+    Author     : Sethathi
+     
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 850px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #f1f4f8;
+}
+
+#nav-menu{
+    width: relative;
+    height: relative;
+    padding: 15px;
+    padding-left: 30px;
+    background-color: #8fc6c8;
+    color:white;
+
+    text-align: left;
+    font-weight: bold;
+    /*    border-radius:6px;*/
+    margin-top: 20px;
+}
+
+#nav-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+#header {
+    height: 250px;
+    background: #aaa;
+    background-image: url(header-bg.png);
+    background-repeat: repeat-x;
+}
+
+#widgetBar {
+    height: 50px;
+    width: 848px;
+    float: right;
+    background: #f3f3f3;
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+
+}
+
+.actions {
+    width: 214px;
+    margin: 20px 2px;
+    font-size: 13px;;
+    float: right;
+    line-height: 25px;
+
+    background: #ccc;
+}
+
+#logo {
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -20px;
+    border: 2px solid #333;
+    background-image: url(logo-main.png);
+}
+
+#logobg {
+    float: left;
+    margin: 30px 0 0 70px;
+
+    font-family: Courier, monospace;
+    font-size: 50px;
+    color: #333;
+
+}
+
+#LeftDiv {
+    height: relative;
+    width:260px;
+    float: left;
+    background: #f5f5f5;
+    /*    border: 1px solid orange;*/
+}
+
+
+
+#RightDiv {
+    height: 300px;
+    width: 590px;
+    float: left;
+    padding-top: 20px;
+    background: #fff;
+
+    /*    border: 1px solid orange;*/
+    color:#333;
+    font-size: 14px;
+
+}
+
+#Footer {
+    height: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    border-top: 1px solid #dedede;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #fff;
+    font-size: 10px;
+    /*    border: 1px solid orange;*/
+    color:#333;
+
+
+}
+
+#login-bg{
+    width: 202px;
+    height: relative;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-color: #8fc6c8;
+
+    color:white;
+
+    text-align: left;
+    font-weight: bold;
+    /*    border-radius:6px;*/
+    margin-top: 20px;
+}
+
+
+
+.error{
+    color: red;
+    font-size: 0.75em;;
+    font-weight: normal;
+}
+
+.fields
+{
+    width:220px;
+    height:25px;
+    font-size:13px;
+    border:1px solid #333;
+    padding-left: 5px;
+    font-family: Arial, Verdana, sans-serif;
+    margin-bottom:10px;
+
+
+}
+label.error 
+{
+    font-size:10px;
+    color:#cc0000;
+    margin-left:5px;
+
+}
+
+.login_btn{
+    background-color: transparent;
+    border :1px solid #666666;
+
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    background-image: url(login-bg.png);
+
+    background-repeat: repeat-x;
+}
+
+.register_btn{
+    background-color: transparent;
+    border :1px solid #666666;
+
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    background-image: url(login-bg.png);
+
+    background-repeat: repeat-x;
+}
+.calcel_btn{
+    background-color: transparent;
+    border :1px solid #666666;
+
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    background-image: url(cancel-bg.png);
+
+    background-repeat: repeat-x;
+}
+
+table td{
+    text-align: left;
+    padding: 4px;
+    font-size: 0.9em;
+
+
+}
+
+table th{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.register_input{
+    padding: 4px;
+    width: 220px;
+
+}
