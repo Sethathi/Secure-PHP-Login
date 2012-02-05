@@ -2,6 +2,7 @@
 require 'app/Controller/Session.php';
 
 $errors = $sess->getVariable('errors');
+//Get all notifications from a session
 $notification = $sess->getVariable('notification');
 ?>
 
