@@ -1,8 +1,10 @@
 <?php
 require 'app/Controller/Session.php';
 
-
+//Here we make sure that a user has logged in before they can view this page
 $sess->checkLogin();
+
+//Get user details from a session
 $userDetails = $sess->getVariable('userDetails');
 ?>
 <!DOCTYPE html>
@@ -14,7 +16,10 @@ $userDetails = $sess->getVariable('userDetails');
 
     </head>
     <body>
-<?php include 'header/header.php'; ?>
+<?php
+//include the header
+include 'header/header.php';
+?>
 
         <div id="LeftDiv">
             <div id="nav-menu">
