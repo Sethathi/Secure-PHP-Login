@@ -6,7 +6,7 @@
  * @author Seththi
  */
 class Session {
-
+    
     /**
      * Errors
      * Every error will be put in this array
@@ -16,7 +16,8 @@ class Session {
      */
     public $errors = array();
 
-    /**
+    /**Notifications
+     * 
      * Every notification will be in here then put in a session
      * @var tarray 
      */
@@ -39,7 +40,7 @@ class Session {
         if (isset($_SESSION["$var"]))
             return $_SESSION["$var"];
         else
-            return false;
+            return FALSE;
     }
 
     /**
