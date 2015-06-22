@@ -14,7 +14,7 @@ $notification = $sess->getVariable('notification');
         <script src="js/validation.js" type="text/javascript">
     
         </script>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="js/jquery.validate.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/validation.js"></script>
         <title>Webapp  :: Welcome</title>
@@ -65,7 +65,6 @@ $notification = $sess->getVariable('notification');
                                 </td>
                             </tr>
                             <tr>
-
                                 <td><input type="submit" class="login_btn" value="Login" /> <input type="reset" class="calcel_btn" value="Cancel" /></td>
                             </tr>
                         </tbody>
